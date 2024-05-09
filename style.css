@@ -6,6 +6,8 @@
     --fundo-senha: #00244D;
     --fundo-texto: #001E40;
     --borda: #0075FF;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
 }
 
 body{
