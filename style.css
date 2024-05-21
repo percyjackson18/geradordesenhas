@@ -23,4 +23,10 @@ body{
 
 .titulo-secundario{
     font-size: 24px;
+    font-weight: 400;
+}
+
+.conteudo-titulo{ 
+    text-align: center;
+    margin-top: 80px;
 }
