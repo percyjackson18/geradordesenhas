@@ -22,5 +22,12 @@ function aumentaTamanho(){
 const campoSenha = document.querySelector('#campo-senha');
 
 const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYWZ';
+geraSenha();
 
 campoSenha.value = letrasMaiusculas;
+
+function geraSenha(){
+    let numeroAleatorio = Math.random()*letrasMaiusculas.length;
+    numeroAleatorio = Math.floor(numeroAleatorio);
+    console.log(numeroAleatorio);
+}
